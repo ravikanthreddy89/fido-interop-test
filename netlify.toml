@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/api/*"
+  from = "/fido2/*"
   to = "https://dev.fidotesting.com/:splat"
   status = 200
   force = true

@@ -2,7 +2,7 @@
   # Use the “for” property to specify which paths get these headers
   for = "/*"
   [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://dev.fidotesting.com"
     Access-Control-Allow-Methods = "GET, OPTIONS, POST, PUT"
 
 [[redirects]]

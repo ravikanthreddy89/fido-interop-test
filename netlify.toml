@@ -1,3 +1,10 @@
+[[headers]]
+  # Use the “for” property to specify which paths get these headers
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS, POST, PUT"
+
 [[redirects]]
   from = "/fido2/*"
   to = "http://dev.fidotesting.com/fido2/:splat"
